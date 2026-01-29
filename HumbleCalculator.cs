@@ -24,6 +24,21 @@ public class HumbleCalculator
         
         // TODO: Usa switch para calcular según la operación
         // Ejemplo: switch(operation) { case 1: resultado = num1 + num2; break; ... }
+           switch (operation)
+        {
+            case 1:
+                resultado = num1 + num2;
+                break;
+            case 2:
+                resultado = num1 - num2;
+                break;
+            case 3:
+                resultado = num1 * num2;
+                break;
+            default:
+                Console.WriteLine("Opción no válida");
+                break;
+        }
         
         return resultado;
     }
